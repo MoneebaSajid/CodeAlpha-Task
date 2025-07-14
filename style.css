@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #1f1c2c, #928dab);
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.player-container {
+  background: #222;
+  color: #fff;
+  padding: 30px 40px;
+  border-radius: 15px;
+  text-align: center;
+  box-shadow: 0 0 30px rgba(0, 255, 255, 0.3);
+  width: 90%;
+  max-width: 400px;
+}
+
+h2, h4 {
+  margin: 10px 0;
+}
+
+.controls button {
+  background: none;
+  border: none;
+  color: #00f7ff;
+  font-size: 2rem;
+  margin: 0 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.controls button:hover {
+  transform: scale(1.2);
+}
+
+.progress-container {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.progress-bar {
+  flex: 1;
+  background: #444;
+  height: 8px;
+  border-radius: 5px;
+  cursor: pointer;
+  position: relative;
+}
+
+.progress {
+  height: 100%;
+  background: #00f7ff;
+  width: 0%;
+  border-radius: 5px;
+}
+
+.volume-control {
+  margin-top: 10px;
+}
+
+input[type=range] {
+  width: 100px;
+}
